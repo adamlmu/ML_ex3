@@ -1,0 +1,15 @@
+name: ml-assignment3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - tensorflow
+  - keras
+  - pip
+  - pip:
+    - pandas
+    - opencv-python
